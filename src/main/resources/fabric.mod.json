@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "statech",
+  "version": "${version}",
+  "name": "StaTech Companion Mod",
+  "description": "",
+  "authors": [],
+  "contact": {
+    "repo": "https://github.com/TheStaticVoid/StaTechCompanionMod"
+  },
+  "license": "MIT",
+  "icon": "assets/statech/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [],
+    "main": [
+      "dev.thestaticvoid.statech.StaTechCompanionMod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
